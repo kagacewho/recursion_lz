@@ -18,7 +18,7 @@ def addition(a, b, perenos=0):
     
     return addition(a[:-1], b[:-1], perenos) + str(result_digit)
 
-print(addition(a, b))
+print('Сумма больших чисел равна: ', addition(a, b))
 
 
 
