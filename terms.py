@@ -14,7 +14,7 @@ def terms(n, max_num=None):
 n = int(input('Введите число:'))
 partitions = terms(n)
 for p in partitions: 
-    print(p)
+    print('Разложение числа равно:' , p)
 
     
 
