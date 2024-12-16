@@ -8,4 +8,4 @@ def Euclid(a, b):
             return Euclid(a - b, b)
         else:
             return Euclid(a, b - a)
-print(Euclid(a, b))
+print('Число Евклида равно:', Euclid(a, b))
